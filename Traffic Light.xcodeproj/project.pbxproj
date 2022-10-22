@@ -40,7 +40,7 @@
 		04D1E4D229034ED90053DCD7 = {
 			isa = PBXGroup;
 			children = (
-				04D1E4DD29034ED90053DCD7 /* svetofortest */,
+				04D1E4DD29034ED90053DCD7 /* Traffic Light */,
 				04D1E4DC29034ED90053DCD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04D1E4DD29034ED90053DCD7 /* svetofortest */ = {
+		04D1E4DD29034ED90053DCD7 /* Traffic Light */ = {
 			isa = PBXGroup;
 			children = (
 				04D1E4DE29034ED90053DCD7 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				04D1E4E929034EDB0053DCD7 /* LaunchScreen.storyboard */,
 				04D1E4EC29034EDB0053DCD7 /* Info.plist */,
 			);
-			path = svetofortest;
+			path = "Traffic Light";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04D1E4D629034ED90053DCD7 /* Build configuration list for PBXProject "svetofortest" */;
+			buildConfigurationList = 04D1E4D629034ED90053DCD7 /* Build configuration list for PBXProject "Traffic Light" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -292,8 +292,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +318,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04D1E4D629034ED90053DCD7 /* Build configuration list for PBXProject "svetofortest" */ = {
+		04D1E4D629034ED90053DCD7 /* Build configuration list for PBXProject "Traffic Light" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D1E4ED29034EDB0053DCD7 /* Debug */,
